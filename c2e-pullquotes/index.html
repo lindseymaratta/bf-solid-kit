@@ -4,101 +4,432 @@ layout: default
 
 {% include bf-demo-nav.html %}
 
+<!--<h2 class="xs-ml4 xs-mt4">v1</h2>
 <div class="pullquotes-wrapper xs-border fill-white xs-m6 xs-p2">
-
-	<!-- Desktop Display Settings -->
-
-	<h2 class="xs-text-4 bold xs-mb2">Desktop Display</h2>
+<label class="form-label">Desktop Display</label>
 	<div class="clearfix xs-pb2 xs-mb2 xs-border-bottom">
-		<a class="col xs-col-3 xs-block xs-text-center xs-p1">
+		<a class="col xs-col-4 xs-block xs-text-center xs-p1">
 			A
 		</a>
-		<a class="col xs-col-3 xs-block xs-text-center xs-p1">
+		<a class="col xs-col-4 xs-block xs-text-center xs-p1">
 			B
 		</a>
-		<a class="col xs-col-3 xs-block xs-text-center xs-border xs-p1">
+		<a class="col xs-col-4 xs-block xs-text-center xs-border xs-p1">
 			C
 		</a>
 	</div>
 
-	<!-- Font -->
+	
+	<div class="clearfix xs-pb2 xs-mb2 xs-border-bottom">
+	<div class="col xs-col-5">
+		<label class="form-label">Font Size</label>
+	  	<input type="number" class="text-input text-input--small xs-col-10" placeholder="12px">
+	</div>
+	<div class="col xs-col-7 xs-px1">
+		<label class="form-label">Font</label>
+		<select class="select select--small xs-col-12">
+		    <option value="choose">Proxima Nova</option>
+		    <option value="amazing">Helvetica Neue</option>
+		    <option value="boring">Gill Sans Bold</option>
+		    <option value="fun">Arial</option>
+	  	</select>
+	</div>
 
-	<h2 class="xs-text-4 bold xs-mb2">Font</h2>
-	<div class="xs-pb2 xs-mb2 xs-border-bottom">
-	Select Here
+	</div>
+
+
+	<div class="clearfix xs-pb2 xs-mb2 xs-border-bottom">
+		<div class="color-picker col xs-col-5">
+			<label class="form-label">Font Color</label>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter">
+				</div>
+				<div class="col color-picker__tile fill-orange">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue">
+				</div>
+				<div class="col color-picker__tile fill-yellow">
+				</div>
+				<div class="col color-picker__tile fill-pink">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter">
+				</div>
+				<div class="col color-picker__tile fill-orange">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue">
+				</div>
+				<div class="col color-picker__tile fill-yellow">
+				</div>
+				<div class="col color-picker__tile fill-pink">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+			</div>
+		</div>
+		<div class="col xs-col-7 xs-px1 xs-mt4">
+  			<span class="col color-picker__tile--large fill-red"></span>
+  			<input type="text" class="text-input text-input--small xs-col-9" placeholder="#ee3322">
+		</div>
+	</div>
+
+	<div class="clearfix xs-pb1">
+		<label class="form-label">Background Color</label>
+		<div class="color-picker col xs-col-5">
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter">
+				</div>
+				<div class="col color-picker__tile fill-orange">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue">
+				</div>
+				<div class="col color-picker__tile fill-yellow">
+				</div>
+				<div class="col color-picker__tile fill-pink">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red border">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter">
+				</div>
+				<div class="col color-picker__tile fill-orange">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue">
+				</div>
+				<div class="col color-picker__tile fill-yellow">
+				</div>
+				<div class="col color-picker__tile fill-pink">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+			</div>
+		</div>
+		<div class="col xs-col-7 xs-px1">
+  			<span class="col color-picker__tile--large fill-red"></span>
+  			<input type="text" class="text-input text-input--small xs-col-9" placeholder="#ee3322">
+		</div>
+	</div>
+</div>
+
+<h2 class="xs-ml4">v2</h2>
+<div class="pullquotes-wrapper xs-border fill-white xs-m6 xs-p2">
+
+
+	<label class="form-label">Desktop Display</label>
+	<div class="clearfix xs-pb2 xs-mb2 xs-border-bottom">
+		<a class="col xs-col-4 xs-block xs-text-center xs-p1">
+			<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  				<path fill="#D8D8D8" fill-rule="evenodd" d="M16 12h18v1H16zm0 2h18v1H16zm0 4h18v1H16zm0 4h18v1H16zm0-6h18v1H16zm0 4h18v1H16zm0 4h18v1H16zM3 12h12v13H3z"/>
+			</svg>
+		</a>
+		<a class="col xs-col-4 xs-block xs-text-center xs-p1">
+			<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  				<path fill="#D8D8D8" fill-rule="evenodd" d="M3.21 22h32v1h-32zm0 2h32v1h-32zM3 12h32v9H3z"/>
+			</svg>
+		</a>
+		<a class="col xs-col-4 xs-block xs-text-center xs-border xs-p1">
+			<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  				<path fill="#D8D8D8" fill-rule="evenodd" d="M3 12h18v1H3zm0 2h18v1H3zm0 4h18v1H3zm0 4h18v1H3zm0-6h18v1H3zm0 4h18v1H3zm0 4h18v1H3zm19-12h12v13H22z"/>
+			</svg>
+		</a>
+	</div>
+
+	<div class="clearfix xs-pb2 xs-mb2 xs-border-bottom">
+		<div class="col xs-col-7 xs-pr2">
+			<label class="form-label">Font</label>
+			<select class="select select--small xs-col-12">
+			    <option value="choose">Proxima Nova</option>
+			    <option value="amazing">Helvetica Neue</option>
+			    <option value="boring">Gill Sans Bold</option>
+			    <option value="fun">Arial</option>
+		  	</select>
+		</div>
+		<div class="col xs-col-5">
+			<label class="form-label">Font Size</label>
+		  	<input type="number" class="text-input text-input--small xs-col-10" placeholder="12px">
+		</div>
+	</div>
+
+
+	<div class="clearfix xs-pb2 xs-mb2 xs-border-bottom">
+		<label class="form-label">Font Color</label>
+		<div class="col xs-col-7 xs-pr1">
+  			<span class="col color-picker__tile--large fill-red"></span>
+  			<input type="text" class="text-input text-input--small xs-col-9" placeholder="#ee3322">
+		</div>
+		<div class="color-picker col xs-col-5">
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter">
+				</div>
+				<div class="col color-picker__tile fill-orange">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue">
+				</div>
+				<div class="col color-picker__tile fill-yellow">
+				</div>
+				<div class="col color-picker__tile fill-pink">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter">
+				</div>
+				<div class="col color-picker__tile fill-orange">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue">
+				</div>
+				<div class="col color-picker__tile fill-yellow">
+				</div>
+				<div class="col color-picker__tile fill-pink">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="clearfix xs-pb1">
+		<label class="form-label">Background Color</label>
+		<div class="col xs-col-7 xs-pr1">
+  			<span class="col color-picker__tile--large fill-red"></span>
+  			<input type="text" class="text-input text-input--small xs-col-9" placeholder="#ee3322">
+		</div>
+		<div class="color-picker col xs-col-5">
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter">
+				</div>
+				<div class="col color-picker__tile fill-orange">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue">
+				</div>
+				<div class="col color-picker__tile fill-yellow">
+				</div>
+				<div class="col color-picker__tile fill-pink">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red border">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter">
+				</div>
+				<div class="col color-picker__tile fill-orange">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue">
+				</div>
+				<div class="col color-picker__tile fill-yellow">
+				</div>
+				<div class="col color-picker__tile fill-pink">
+				</div>
+				<div class="col color-picker__tile fill-gray">
+				</div>
+				<div class="col color-picker__tile fill-green">
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+<h2 class="xs-m2">v3</h2>
+<div class="pullquotes-wrapper xs-border fill-white xs-m2 xs-p2">
+
+	<!-- Desktop Display Settings -->
+
+	<label class="form-label">Desktop Display</label>
+	<div class="clearfix xs-mb2 xs-border-bottom">
+		<a class="col xs-col-4 xs-block xs-text-center">
+			<svg class="icon-layout svg-blue" xmlns="http://www.w3.org/2000/svg" width="80"  viewBox="0 4 38 30">
+  				<path d="M16 12h18v1H16zm0 2h18v1H16zm0 4h18v1H16zm0 4h18v1H16zm0-6h18v1H16zm0 4h18v1H16zm0 4h18v1H16zM3 12h12v13H3z"/>
+			</svg>
+		</a>
+		<a class="col xs-col-4 xs-block xs-text-center">
+			<svg class="icon-layout svg-gray-lightest" xmlns="http://www.w3.org/2000/svg" width="80"  viewBox="0 4 38 30">
+  				<path d="M3 22h32v1h-32zm0 2h32v1h-32zM3 12h32v9H3z"/>
+			</svg>
+		</a>
+		<a class="col xs-col-4 xs-block xs-text-center">
+			<svg class="icon-layout svg-gray-lightest" xmlns="http://www.w3.org/2000/svg" width="80"  viewBox="0 4 38 30">
+  				<path d="M3 12h18v1H3zm0 2h18v1H3zm0 4h18v1H3zm0 4h18v1H3zm0-6h18v1H3zm0 4h18v1H3zm0 4h18v1H3zm19-12h12v13H22z"/>
+			</svg>
+		</a>
+	</div>
+
+	<!-- Font -->
+	<div class="clearfix xs-pb3 xs-mb2 xs-border-bottom">
+		<div class="col xs-col-5">
+			<label class="form-label">Size</label>
+		  	<input type="number" class="text-input text-input--small xs-col-10" placeholder="12px">
+		</div>
+		<div class="col xs-col-7 xs-pr2">
+			<label class="form-label">Font</label>
+			<select class="select select--small xs-col-12">
+			    <option value="choose">Proxima Nova</option>
+			    <option value="amazing">Helvetica Neue</option>
+			    <option value="boring">Gill Sans Bold</option>
+			    <option value="fun">Arial</option>
+		  	</select>
+		</div>
 	</div>
 
 	<!-- Font Size Stepper -->
 
-	<h2 class="xs-text-4 bold xs-mb2">Font Size</h2>
-	<div class="xs-pb2 xs-mb2 xs-border-bottom">
-	Stepper Here
-	</div>
+	
 
 	<!-- Font Color  -->
 	
 	
 	<!-- Start color picker -->
 	<div class="clearfix xs-pb2 xs-mb2 xs-border-bottom">
-		<div class="color-picker col xs-col-6">
-			<h2 class="xs-text-4 bold xs-mb2">Font Color</h2>
+		<label class="form-label">Text Color</label>
+		<div class="color-picker col xs-col-5">
 			<div class="clearfix">
-				<div class="col color-picker__tile fill-red">
+				<div class="col color-picker__tile text-fill-gray xs-mr1 xs-mb1">
 				</div>
-				<div class="col color-picker__tile fill-gray">
+				<div class="col color-picker__tile text-fill-gray-lighter xs-mr1 xs-mb1">
 				</div>
-				<div class="col color-picker__tile fill-green">
-				</div>
-				<div class="col color-picker__tile fill-green-lighter">
-				</div>
-				<div class="col color-picker__tile fill-orange">
+				<div class="col color-picker__tile text-fill-gray-lightest xs-mb1">
 				</div>
 			</div>
 			<div class="clearfix">
-				<div class="col color-picker__tile fill-blue">
+				<div class="col color-picker__tile text-fill-blue xs-mr1 xs-mb1">
 				</div>
-				<div class="col color-picker__tile fill-yellow">
+				<div class="col color-picker__tile text-fill-green xs-mr1 xs-mb1">
 				</div>
-				<div class="col color-picker__tile fill-pink">
-				</div>
-				<div class="col color-picker__tile fill-gray">
-				</div>
-				<div class="col color-picker__tile fill-green">
+				<div class="col color-picker__tile text-fill-pink xs-mb1">
 				</div>
 			</div>
 			<div class="clearfix">
-				<div class="col color-picker__tile fill-red">
+				<div class="col color-picker__tile text-fill-red xs-mr1 xs-mb1">
 				</div>
-				<div class="col color-picker__tile fill-gray">
+				<div class="col color-picker__tile text-fill-orange xs-mr1 xs-mb1">
 				</div>
-				<div class="col color-picker__tile fill-green">
-				</div>
-				<div class="col color-picker__tile fill-green-lighter">
-				</div>
-				<div class="col color-picker__tile fill-orange">
-				</div>
-			</div>
-			<div class="clearfix">
-				<div class="col color-picker__tile fill-blue">
-				</div>
-				<div class="col color-picker__tile fill-yellow">
-				</div>
-				<div class="col color-picker__tile fill-pink">
-				</div>
-				<div class="col color-picker__tile fill-gray">
-				</div>
-				<div class="col color-picker__tile fill-green">
+				<div class="col color-picker__tile text-fill-promoted-orange xs-mr1 xs-mb1">
 				</div>
 			</div>
 		</div>
-		<div class="col xs-col-6 xs-px1">
-		put the other thing here
+		<div class="col xs-col-7 xs-pr1">
+		<span class="col color-picker__tile--large fill-gray xs-border-left xs-border-top xs-border-bottom"></span>
+		<input type="text" class="text-input text-input--small xs-col-9" placeholder="#AAAAAA">
 		</div>
+
 	</div>
 
 	<!-- BG Color  -->
-	<h2 class="xs-text-4 bold xs-mb2">Background Color</h2>
-	<div class="xs-pb2">
-	Cool color picker shit here
+	<!-- Start color picker -->
+	<div class="clearfix xs-pb1">
+		<label class="form-label">Background Color</label>
+		<div class="color-picker col xs-col-5">
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-gray-darker xs-mr1 xs-mb1">
+				</div>
+				<div class="col color-picker__tile fill-gray xs-mr1 xs-mb1">
+				</div>
+				<div class="col color-picker__tile fill-gray-lighter xs-mb1">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-blue xs-mr1 xs-mb1">
+				</div>
+				<div class="col color-picker__tile fill-green-lighter xs-mr1 xs-mb1">
+				</div>
+				<div class="col color-picker__tile fill-pink xs-mb1">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="col color-picker__tile fill-red-lighter xs-mr1 xs-mb1">
+				</div>
+				<div class="col color-picker__tile fill-yellow xs-mr1 xs-mb1">
+				</div>
+				<div class="col color-picker__tile fill-yellow-lighter xs-mr1 xs-mb1">
+				</div>
+			</div>
+		</div>
+		<div class="col xs-col-7 xs-pr1">
+				<span class="col color-picker__tile--large fill-white xs-border-left xs-border-top xs-border-bottom"></span>
+				<input type="text" class="text-input text-input--small xs-col-9" placeholder="#FFFFFF">
+		</div>
 	</div>
-</div>
+	</div>

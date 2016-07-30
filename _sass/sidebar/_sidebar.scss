@@ -10,3 +10,46 @@
 	width:20px;
 	height:20px;
 }
+
+
+.color-picker__tile--large {
+	width:32px;
+	height:32px;
+}
+
+.border {
+	border: 2px solid black;
+}
+
+.text-fill-gray{
+	background: $text-gray;
+}
+.text-fill-gray-lighter{
+	background: $text-gray-lighter;
+}
+.text-fill-gray-lightest{
+	background: $text-gray-lightest;
+}
+.text-fill-blue{
+	background: $text-blue;
+}
+.text-fill-green{
+	background: $text-green;
+}
+.text-fill-pink{
+	background: $text-pink;
+}
+.text-fill-red{
+	background: $text-red;
+}
+.text-fill-orange{
+	background: $text-orange;
+}
+.text-fill-promoted-orange{
+	background: $text-promoted-orange;
+}
+
+svg.icon-layout:hover {
+	fill: $fill-blue !important;
+	transition: ease-in-out (.25s);
+}
