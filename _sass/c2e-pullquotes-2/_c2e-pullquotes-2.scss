@@ -1,0 +1,49 @@
+.alignment {
+	width:40px;
+	height: 40px;
+	fill: $fill-gray;
+	border: 1px solid $fill-gray;
+	border-radius:2px;
+	background: $fill-gray-lighter;
+}
+
+.alignment.active {
+	border: 1px solid $fill-blue;
+	border-radius:2px;
+	fill: $fill-blue;
+}
+.alignment:hover {
+	cursor: pointer;
+	fill: $text-gray-lighter;
+	border: 1px solid $text-gray-lighter;
+	transition: ease-in-out .25s;
+}
+
+.images-flyout {
+	width: 340px;
+}
+
+.pullquote-flyout {
+	width: 625px;
+}
+
+
+.c1 {
+ 	background: #9D0F02;
+}
+.c2 {
+	background:#EE3322;
+}
+
+.c3{
+	background: #996699;
+}
+.c4{
+	background: #004F9E;
+}
+.c5{
+	background: #336666;
+}
+.c6{
+	background: #336633;
+}
